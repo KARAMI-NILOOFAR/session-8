@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"TTNorms";
+    src: url(../fonts/Times-new-roman-italic.ttf);
+}
+body{
+    font-family:TTNorms;
+}
+/* code header */
+.header{
+    background-color: white;
+    width: 1366px;
+    height: 200px;
+}
+.header-logo{
+    text-align: center;
+
+    
+}
+.header-img{
+    width: 373px;
+    height: 124px;
+    
+}
+.menu{
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    
+}
+.menu-item{
+    font-weight: 600px;
+    padding-left: 1rem;
+    
+}
+.menu-item:nth-child(1){
+    color: aqua;
+}
+/* code wrapper */
+.wraper{
+    text-align: center;
+    height:400px;
+    width: 1366px;
+    background-image: url(../images/the-beacon.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+}
+.box{
+    margin: auto;
+    margin-left: 40rem;
+    padding-top:80px;
+        text-align: center;
+    width: 400px;
+}
+
+.wraper-title{
+    text-transform: uppercase;
+background-color: white; 
+   text-align: center;
+
+}
+.wraper-text{
+    background-color: rgb(47, 85, 85);
+    line-height:2rem;
+   
+
+}
+.wraper-btn{
+    line-height: 1rem;
+    padding: 1rem;
+    margin-right:17rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #00897B;
+    text-decoration: none;
+
+}
+/* code box-images*/
+.box-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1366px;
+    height:300px;
+margin-top:6rem;
+gap: 1rem;
+}
+.box1{
+}
+.box1-image{
+    border: 3px solid gray;
+}
+
+.box2{
+
+}
+.box2-image{
+    border: 3px solid gray;
+
+
+}
+.box3{
+
+}
+.box3-image{
+    border: 3px solid gray;
+
+}
+.title-image{
+    display: block;
+   font-weight: 800px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+/* code footer */
+.footer{
+    width: 1366px;
+    height: 150px;
+    background-color:#212121;
+}
+
+.footer-option{
+    gap:2px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+gap:30rem;
+
+}
+.footer-title{
+     padding-top:2rem; 
+    margin-left:15rem; 
+    color: white;
+
+}
+.icons{
+     margin-top:2rem; 
+    margin-right:8rem; 
+}
+.image-icon{
+    padding:0.4rem; 
+
+}
+    
